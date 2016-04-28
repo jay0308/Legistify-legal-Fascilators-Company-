@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap-theme.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap-theme.min.css">
+
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+
+	<link rel="stylesheet" type="text/css" href="review-style.css">
+</head>
+
+<body>
+<div class="container-fluid ">
+<nav class="myheader navbar navbar-fixed nav-width">
+  <div class="container-fluid myheader ">
+    <div class="container">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header ">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <img src="logo.jpg" class="image-responsive" style="height:40px">
+      <span class="headerClr" style="font-size:30px;position-relative;">legistify</span>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse headerClr" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right ">
+        <li class="headerClr navbarli">ABOUT</li>
+        <li class="headerClr navbarli">DOCUMENTS</li>
+        <li class="headerClr navbarli">RESEARCH</li>
+        <li class="headerClr navbarli">LOGIN</li>
+        <li class="btn btn-primary mybtn" style="   position: relative;
+    display: block;
+    margin: 10px 15px; margin-top: 10px;
+    margin-bottom: 15px;">For lawywers</li>
+          </ul>
+        </li>
+      </ul>
+      
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+  </div>
+</nav>
+
+
+
+	<div class="row image-container">
+		<br><br><br><br>
+		
+		<div class="col-md-2 col-md-offset-1 img-responsive">
+			<img src="gentleman.jpg">
+		</div>
+		
+		<div class="col-md-9">
+			<div class="row">
+				<div class="col-md-7">
+					<!-- <p class="rahul-text">Rahul Shrivastav</p> -->
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-3">
+					<h2>Practice Areas:</h2>
+					<h5>Cooperate Society, Document Registration, Cooperative Society, Document Registration.</h5>
+				</div>
+				<div class="col-md-5 col-md-offset-1">
+					<h2>&nbsp;&nbsp;<i class="fa fa-map-marker logo-color-red"></i> &nbsp;Delhi</h2>
+					<h2>
+						<i class="fa fa-signal logo-color-red"></i>
+						<i class="fa fa-male logo-color-red men-logo"></i> 12 Years Experience</h2>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-4 rating-margin">
+					<h1>User Reviews</h1>
+					<i class="fa fa-star fa-3x logo-color-red"></i>&nbsp;
+					<i class="fa fa-star fa-3x logo-color-red"></i>&nbsp;
+					<i class="fa fa-star fa-3x logo-color-red"></i>&nbsp;
+					<i class="fa fa-star fa-3x logo-color-red"></i>&nbsp;
+					<i class="fa fa-star fa-3x logo-color-red"></i><br>
+					(From 1000 Viewers)
+				</div>
+				<div class="col-md-4 rating-margin">
+					<h1>legistify Ratings</h1>
+					<i class="fa fa-star fa-3x logo-color-red"></i>&nbsp;
+					<i class="fa fa-star fa-3x logo-color-red"></i>&nbsp;
+					<i class="fa fa-star fa-3x logo-color-red"></i>&nbsp;
+					<i class="fa fa-star fa-3x logo-color-red"></i>&nbsp;
+					<i class="fa fa-star fa-3x logo-color-red"></i><br>
+					(5.0 out of 5)
+				</div>
+			</div>
+		</div>	
+	</div>
+
+	<div class="row">
+		<div class="col-md-1 col-md-offset-4">
+			<h1><a style="color:black;" href="about.html">About</a></h1>
+		</div>
+		<div class="col-md-1 col-md-offset-1">
+			<h1><u><a style="color:black;" href="review.html">Reviews</a></u></h1>
+		</div>
+	</div>
+
+	<br><br>
+	<div class="row">
+		<div class="col-md-3 col-md-offset-1">
+			<p class="rating-4">4.0</p>
+			<i class="fa fa-star fa-3x"></i>&nbsp;
+			<i class="fa fa-star fa-3x"></i>&nbsp;
+			<i class="fa fa-star fa-3x"></i>&nbsp;
+			<i class="fa fa-star fa-3x"></i>&nbsp;
+			<i class="fa fa-star fa-3x logo-color-grey"></i><br>	
+		</div>
+	
+		 <div class="col-md-4">
+				<div class="row">
+					<div class="col-md-12">		
+						<i class="fa fa-star fa-2x"></i> 5 <div class="bar-1"></div> 500
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-12">		
+						<i class="fa fa-star fa-2x"></i> 4 <div class="bar-2"></div> 300
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-12">				
+						<i class="fa fa-star fa-2x"></i> 3 <div class="bar-3"></div> 350
+					</div>	
+				</div>
+				<div class="row">
+					<div class="col-md-12">		
+						<i class="fa fa-star fa-2x"></i> 2 <div class="bar-4"></div> 40
+					</div>	
+				</div>
+				<div class="row">
+					<div class="col-md-12">				
+						<i class="fa fa-star fa-2x"></i> 1 <div class="bar-5"></div> 10
+					</div>	
+				</div>		
+		</div> <!-- col-md-4 -->
+		<div class="col-md-3 col-md-offset-1">
+			<button class="write-review-button"><i class="fa fa-pencil"> Write a Review</i></button>
+		</div>
+	</div> <!-- row -->
+	<br><br>
+	<div class="row">
+		<div class="col-md-1 col-md-offset-1">
+			<img src="gentleman.jpg" class="img-responsive">	
+		</div>
+		<div class="col-md-9">
+			<span class="sharad-text">Sharad N Darji</span>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<h3><b>Subject</b></h3>
+			<p class="content-text">rap fan yourself. Wear t-shirts of rap artists. Play the music loudly rap fan yourself. Wear t-shirts of rap artists. Play the music loudly rap fan yourself. Wear t-shirts of rap artists. Play the music loudly rap fan yourself. Wear t-shirts of rap artists.
+			Play the music loudly rap fan yourself. Wear t-shirts of rap artists.......<a href="#">More</a>	<i class="fa fa-angle-down"></i>
+			</p>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-1 col-md-offset-1">
+			<img src="gentleman.jpg" class="img-responsive">	
+		</div>
+		<div class="col-md-9">
+			<span class="sharad-text">Sharad N Darji</span>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<h3><b>Subject</b></h3>
+			<p class="content-text">rap fan yourself. Wear t-shirts of rap artists. Play the music loudly rap fan yourself. Wear t-shirts of rap artists. Play the music loudly rap fan yourself. Wear t-shirts of rap artists. Play the music loudly rap fan yourself. Wear t-shirts of rap artists.
+			Play the music loudly rap fan yourself. Wear t-shirts of rap artists.......<a href="#">More</a>	<i class="fa fa-angle-down"></i>
+			</p>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-1 col-md-offset-1">
+			<img src="gentleman.jpg" class="img-responsive">	
+		</div>
+		<div class="col-md-9">
+			<span class="sharad-text">Sharad N Darji</span>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<h3><b>Subject</b></h3>
+			<p class="content-text">rap fan yourself. Wear t-shirts of rap artists. Play the music loudly rap fan yourself. Wear t-shirts of rap artists. Play the music loudly rap fan yourself. Wear t-shirts of rap artists. Play the music loudly rap fan yourself. Wear t-shirts of rap artists.
+			Play the music loudly rap fan yourself. Wear t-shirts of rap artists.......<a href="#">More</a>	<i class="fa fa-angle-down"></i>
+			</p>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-1 col-md-offset-1">
+			<img src="gentleman.jpg" class="img-responsive">	
+		</div>
+		<div class="col-md-9">
+			<span class="sharad-text">Sharad N Darji</span>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<h3><b>Subject</b></h3>
+			<p class="content-text">rap fan yourself. Wear t-shirts of rap artists. Play the music loudly rap fan yourself. Wear t-shirts of rap artists. Play the music loudly rap fan yourself. Wear t-shirts of rap artists. Play the music loudly rap fan yourself. Wear t-shirts of rap artists.
+			Play the music loudly rap fan yourself. Wear t-shirts of rap artists.......<a href="#">More</a>	<i class="fa fa-angle-down"></i>
+			</p>
+		</div>
+	</div>
+  </div>
+</div>
+</body>
+</html>

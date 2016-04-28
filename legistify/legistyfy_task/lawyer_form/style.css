@@ -1,0 +1,271 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	
+}
+.nav-width{
+	margin:0px;
+	padding:0px;
+	border-radius:0px;
+	width:100%;
+}
+.myheader{
+	background-color: #232c3d;
+	height: 60px;
+
+}
+.headerClr{
+	color: white;
+}
+.nav-bar{
+	/* margin: 30px; */
+	/* padding: 0px; */
+	font-family: sans-serif;
+}
+.nav-bar p{
+	font-size: 35px;
+	position: relative;
+	top: -52px;
+	left: 50px;
+}
+.btn-primary.mybtn{
+	background:none;
+	border:1px solid white;
+	border-radius: 0px;
+}
+.navbarli{
+	    position: relative;
+    display: block;
+    padding: 10px 15px;
+	    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.gap{
+	height: 40px;
+}
+.heading{
+	color: #232c3d;
+	font-weight: bold;
+	font-size: 40px;
+	margin-bottom: 30px;
+}
+.formBox{
+	border: 2px solid #7d7d7d;
+	height: 526px;
+	border-right: hidden;
+	
+}
+.form-bg-right::-webkit-scrollbar{
+	background-color: white;
+	width: 8px;
+}
+.form-bg-right::-webkit-scrollbar-track{
+	border-radius: 10px;
+}
+.form-bg-right::-webkit-scrollbar-thumb{
+	border-radius: 15px;
+	background-color: #232c3d;
+}
+.form-bg-left{
+
+	background-color: #eeeced;
+	height: 100%;
+	padding: 20px;
+}
+.btn-primary.form-btn{
+	background: white;
+	padding-top: 15px;
+	color: #232c3d;
+	border: 4px solid #232c3d;
+	border-radius: 0px;
+	font-weight: bold;
+	text-align: left;
+	font-size: 20px;
+	margin: 5%;
+	height: 60px;
+	width: 90%;
+}
+.btn-primary.add-btn{
+	background: white;
+	font-weight: bold;
+	margin-left: -60%;
+	width: 355%;
+	font-size: 15px;
+	color: #232c3d;
+	border: 3px solid #232c3d;
+	border-radius: 0px;
+}
+.form-bg-right{
+	position: relative;
+	font-size: 20px;
+	height: 522px;
+	padding: 43px;
+	border-right: 2px solid #7d7d7d;
+	overflow-x: hidden;
+	overflow-y:scroll;
+}
+.form-width{
+	width: 100%;
+	margin-top: 20px;
+	height: 38px;
+	padding-left: 2%;
+	border: 2px solid #a5a1a2;
+}
+.photo-frame{
+	height: 150px;
+	width: 100%;
+	background-color: #a5a1a2;
+}
+.fileUpload {
+	background: white;
+	font-weight: bold;
+	width: 130%;
+	font-size: 15px;
+	color: #232c3d;
+	border: 3px solid #232c3d;
+	border-radius: 0px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+.fileUpload input.upload {
+	
+	overflow: hidden;
+	cursor: pointer;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+.btn-primary.b-finish-btn{
+	background: white;
+	font-weight: bold;
+	width: 130%;
+	font-size: 20px;
+	color: #232c3d;
+	margin:10px;
+	border: 3px solid #232c3d;
+	border-radius: 0px;
+}
+@media screen and (max-width:992px) 
+{
+.btn-primary.b-finish-btn{
+
+	background: white;
+	font-weight: bold;
+	width: 80%;
+	font-size: 20px;
+	color: #232c3d;
+	margin:10px;
+	border: 3px solid #232c3d;
+	border-radius: 0px;
+}
+.btn-primary.add-btn{
+	background: white;
+	font-weight: bold;
+	margin-left: 0%;
+	width: 100%;
+	font-size: 15px;
+	color: #232c3d;
+	border: 3px solid #232c3d;
+	border-radius: 0px;
+}
+.fileUpload {
+	margin-top: 20px;
+	background: white;
+	font-weight: bold;
+	width: 100%;
+	font-size: 15px;
+	color: #232c3d;
+	border: 3px solid #232c3d;
+	border-radius: 0px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+.container-fluid.go-down{
+	margin-top: 522px;
+}
+}
+@media screen and (max-width:768px) 
+{
+.btn-primary.b-finish-btn{
+
+	background: white;
+	font-weight: bold;
+	width: 80%;
+	font-size: 20px;
+	color: #232c3d;
+	margin:10px;
+	border: 3px solid #232c3d;
+	border-radius: 0px;
+}
+.btn-primary.add-btn{
+	background: white;
+	font-weight: bold;
+	margin-left: 0%;
+	width: 100%;
+	font-size: 15px;
+	color: #232c3d;
+	border: 3px solid #232c3d;
+	border-radius: 0px;
+}
+.fileUpload {
+	margin-top: 20px;
+	background: white;
+	font-weight: bold;
+	width: 100%;
+	font-size: 15px;
+	color: #232c3d;
+	border: 3px solid #232c3d;
+	border-radius: 0px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+.container-fluid.go-down{
+	margin-top: 522px;
+}
+@media screen and (max-width:480px) 
+{
+.btn-primary.b-finish-btn{
+
+	background: white;
+	font-weight: bold;
+	width: 100%;
+	font-size: 20px;
+	color: #232c3d;
+	margin:10px;
+	border: 3px solid #232c3d;
+	border-radius: 0px;
+}
+.btn-primary.add-btn{
+	background: white;
+	font-weight: bold;
+	margin-left: 0%;
+	width: 100%;
+	font-size: 15px;
+	color: #232c3d;
+	border: 3px solid #232c3d;
+	border-radius: 0px;
+}
+.fileUpload {
+	margin-top: 20px;
+	background: white;
+	font-weight: bold;
+	width: 100%;
+	font-size: 15px;
+	color: #232c3d;
+	border: 3px solid #232c3d;
+	border-radius: 0px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+.container-fluid.go-down{
+	margin-top: 522px;
+}

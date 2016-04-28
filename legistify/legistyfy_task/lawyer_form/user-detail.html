@@ -1,0 +1,285 @@
+<!doctype html>
+<html>
+	<head>
+		
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="css/bootstrap.min.css">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="css/bootstrap-theme.min.css">
+<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+<script type="text/javascript">
+function validate(){
+
+    if(document.getElementById("check1").value=="")
+    {
+      alert("*some fields are vacant");
+
+    }
+    else if(document.getElementById("check2").value=="")
+    {
+      alert("*some fields are vacant3");
+
+    }
+    else if(document.getElementById("check4").value=="")
+    {
+      alert("*some fields are vacant");
+
+    }
+    else if(document.getElementById("check5").value=="")
+    {
+      alert("*some fields are vacant");
+
+    }
+    else if(document.getElementById("check6").value=="")
+    {
+      alert("*some fields are vacant");
+
+    }
+    else if(document.getElementById("check7").value=="")
+    {
+      alert("*some fields are vacant");
+
+    }
+    else if(document.getElementById("check8").value=="")
+    {
+      alert("*some fields are vacant");
+
+    }
+    else if(document.getElementById("check9").value=="")
+    {
+      alert("*some fields are vacant");
+
+    }
+    else if(document.getElementById("check10").value=="")
+    {
+      alert("*some fields are vacant");
+
+    }
+    else if(document.getElementById("check11").value=="")
+    {
+      alert("*some fields are vacant");
+
+    }
+    
+    else 
+    {
+      alert("saved your details");
+      window.location.href="legal-info.html"
+    }
+  }
+  function add_fields() {
+    var objTo = document.getElementById('add-more-fields')
+    var divtest = document.createElement("div");
+    divtest.innerHTML = '<div class="col-md-3" style="margin-top:20px;margin-left:-40%">*Education:</div><div class="col-md-9"><input class="form-width" style="width:145%;margin-left:-5%;" type="text" id="check9" placeholder="Enter law college"><input id="check10" style="width:145%;margin-left:-5%;" class="form-width" type="text" placeholder="Degree"><input id="check11" class="form-width" type="text" style="width:100%;margin-left:-5%;" placeholder="year of graduation">';
+
+    objTo.appendChild(divtest)
+}
+  
+</script>
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.js" ></script>
+<!-- Latest compiled and minified JavaScript -->
+<script src="js/bootstrap.min.js" ></script>
+
+	</head>
+	<body>
+    <div class="container-fluid nav-width">
+		<nav class="myheader navbar navbar-fixed nav-width ">
+  <div class="container-fluid myheader ">
+    <div class="container">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header ">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <img src="logo.png" class="image-responsive" style="height:40px">
+      <span class="headerClr" style="font-size:30px;position-relative;">legistify</span>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse headerClr" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right ">
+        <li class="headerClr navbarli">ABOUT</li>
+        <li class="headerClr navbarli">DOCUMENTS</li>
+        <li class="headerClr navbarli">RESEARCH</li>
+        <li class="headerClr navbarli">LOGIN</li>
+        <li class="btn btn-primary mybtn" style="   position: relative;
+    display: block;
+    margin: 10px 15px; margin-top: 10px;
+    margin-bottom: 15px;">For lawywers</li>
+          </ul>
+        </li>
+      </ul>
+      
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+  </div>
+</nav>
+
+<div class="container">
+  <!-- maintaining gap -->
+  <div class="row gap">
+    <div class="col-md-12"></div>
+  </div>
+  <!-- for headline -->
+  <div class="row">
+    <div class="col-md-12">
+      <h1 class="heading">Lawyer Sign Up Form</h1>
+    </div>
+  </div>
+  <!-- for form box -->
+  <div class="row formBox">
+    <div class="col-md-4 form-bg-left">
+      <!-- buttons -->
+      <div class="row">
+              <div class="md-col-12">
+                <div class="btn btn-primary form-btn" style="background:#232c3d;color:white">User Details</div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="md-col-12">
+                <div class="btn btn-primary form-btn">Legal Info</div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="md-col-12">
+                <div class="btn btn-primary form-btn">Basic Details</div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="md-col-12">
+                <div class="btn btn-primary form-btn">Bar Info</div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="md-col-12">
+                <div style="margin-top:60px;font-size:15px;">* Required fields</div>
+              </div>
+            </div>
+          <!-- end of buttons -->
+    </div>
+    <div class="col-md-8 form-bg-right">
+      <!-- Name-->
+      <div class="row">
+        <div class="col-md-3">*Name:</div>
+        <div class="col-md-9">
+          <form>
+              <input class="form-width" id="check1" type="text" style="margin-top:0px;" placeholder="Arjun Verma">
+          </form>
+        </div>
+      </div>
+      <!-- end of name -->
+      <!-- email-->
+      <div class="row">
+        <div class="col-md-3" style="margin-top:20px;">*Email:</div>
+        <div class="col-md-9">
+          <form>
+              <input class="form-width" id="check2" type="text" placeholder="Your email@legistify.com" >
+          </form>
+        </div>
+      </div>
+      <!-- end of email -->
+      <!-- username-->
+      <div class="row">
+        <div class="col-md-3" style="margin-top:20px;">*Username:</div>
+        <div class="col-md-9">
+          <form>
+              <input class="form-width" type="text" id="check3" placeholder="arjunverma99">
+          </form>
+        </div>
+      </div>
+      <!-- end of username-->
+      <!-- password-->
+      <div class="row">
+        <div class="col-md-3" style="margin-top:20px;">*Password:</div>
+        <div class="col-md-9">
+          <form>
+              <input id="check4" class="form-width" type="password" placeholder="********">
+          </form>
+        </div>
+      </div>
+      <!-- end of password-->
+      <!-- dob-->
+      <div class="row">
+        <div class="col-md-3" style="margin-top:20px;">*D.O.B:</div>
+        <div class="col-md-9">
+          <form>
+              <input class="form-width" id="check5" type="text" placeholder="dd/mm/yy">
+          </form>
+        </div>
+      </div>
+      <!-- end of dob -->
+      <!-- Gender-->
+      <div class="row">
+        <div class="col-md-3" style="margin-top:20px;">*Gender:</div>
+        <div class="col-md-9">
+          <form class="form-width" style="border:none;">
+                <input  type="radio" name="gender"id="check6" value="male" checked> Male
+               <input id="check7" type="radio" name="gender" style="margin-left:20%" value="female">Female
+          </form>
+        </div>
+      </div>
+      <!-- end of gender -->
+      <!-- mobile-->
+      <div class="row">
+        <div class="col-md-3" style="margin-top:20px;">*Mobile:</div>
+        <div class="col-md-9">
+          <form>
+              <input class="form-width" id="check8" type="text" placeholder="9988998877">
+          </form>
+        </div>
+      </div>
+      <!-- end of mobile -->
+      <!-- education-->
+      <div class="row" >
+       <div >
+        <div class="col-md-3" style="margin-top:20px;">*Education:</div>
+        <div class="col-md-9">
+      
+              <input class="form-width" type="text" id="check9" placeholder="Enter law college">
+              <input id="check10" class="form-width" type="text" placeholder="Degree">
+              <input id="check11" class="form-width" type="text" style="width:70%" placeholder="year of graduation"><br>
+              <div id="add-more-fields"></div>
+              <div class="row">
+                <div class="col-md-12">
+              <div class="btn btn-primary add-btn" style="width:20%;margin-left:0%;margin-top:20px;" onclick="add_fields();" >+Add</div></div></div>
+          
+        </div>
+       </div>
+      </div>
+      <!-- end of education -->
+    </div>
+  </div>
+</div>
+  <!-- end of form box -->
+  <!-- back next -->
+  <div class="container-fluid go-down">
+    <div class="row">
+      <div class="col-md-offset-5 col-md-1">
+        <div class="btn btn-primary b-finish-btn">Back</div>
+      </div>
+      <div class="col-md-1">
+	
+        <div class="btn btn-primary b-finish-btn" onclick="validate();">Next</div>
+	
+      </div>
+    </div>
+  <!-- end of back next -->
+</div>
+<!-- horizontal line -->
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-12">
+      <div style="background:#232c3d;height:4px;margin:0px"></div>
+    </div>
+  </div>
+</div>
+</div>
+	</body>
+</html>
